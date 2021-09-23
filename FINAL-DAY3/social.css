@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
+/* body {
+    margin: 4rem;
+    background-image: url(../IMAGES/bg-pattern-top-desktop.svg), url(../IMAGES/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    font-family: 'Spartan', sans-serif;
+}
+.section-first {
+    display: flex;
+    justify-content: space-between;
+}
+.box-1 {
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+    width: 32rem;
+    height: 3rem;
+    justify-content: space-between;
+    align-content: center;
+    box-sizing: border-box;
+    gap: 5px;
+    border-radius: 10px;
+
+}
+.star-image {
+    position: relative;
+    
+    width: 50%;
+    height: 50%;
+    left: 2rem;
+    top: 1.2rem;
+}
+.box-1 h4 {
+    position: relative;
+    right: 30px;
+}
+.product {
+    width: 25rem;
+    margin-bottom: 2rem;
+    padding: 1rem 2rem;
+}
+.smith img {
+    border-radius: 50%;
+}
+.smith header {
+    display: flex;
+}
+.smith h3 {
+    margin-left: 8px;
+}
+.smith {
+    color: #fff;
+    width: 25rem;
+    height: 13rem;
+    padding: 2rem;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: hsl(300, 43%, 22%);
+}
+h3 span {
+    color: hsl(333, 80%, 67%);
+}
+.section-second {
+    display: flex;
+}
+.irene {
+    margin-top: 14px;
+}
+.anne {
+    margin-top: 28px;
+}
+.box-second {
+    position: relative;
+    right: 2rem;
+}
+.box-first {
+    position: relative;
+    right: 4rem;
+} */
+
+
+body {
+    background-size: 70%;
+    background-image: url(../IMAGES/bg-pattern-top-desktop.svg), url(../IMAGES/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    font-family: 'Spartan', sans-serif;
+}
+.product {
+    padding: 1rem;
+}
+.box-1 {
+    width: 24rem;
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 5px;
+    background-color: hsl(300, 24%, 96%);
+
+}
+.box-last {
+    margin: 0 0 2rem;
+}
+/* .star-image {
+    position: relative;
+    top: 20px;
+} */
+.smith {
+    color: #fff;
+    width: 25rem;
+    height: 13rem;
+    padding: 2rem;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: hsl(300, 43%, 22%);
+}
+.smith p {
+    opacity: 50%;
+}
+.smith img {
+    border-radius: 50%;
+}
+h3 span {
+    color: hsl(333, 80%, 67%);
+}
+.smith header {
+    display: flex;
+}
+header h3 {
+    margin-left: 10px;
+}
+@media screen and (min-width: 720px) {
+    body {
+        margin: 4rem;
+        background-image: url(../IMAGES/bg-pattern-top-desktop.svg), url(../IMAGES/bg-pattern-bottom-desktop.svg);
+        background-position: left top, right bottom;
+        background-repeat: no-repeat;
+        font-family: 'Spartan', sans-serif;
+    }
+    .section-first {
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-1 {
+        display: flex;
+        background-color: hsl(300, 24%, 96%);
+        width: 33rem;
+        height: 3rem;
+        justify-content: space-between;
+        align-content: center;
+        box-sizing: border-box;
+        gap: 5px;
+        border-radius: 10px;
+    
+    }
+    .star-image {
+        position: relative;
+        
+        width: 50%;
+        height: 50%;
+        left: 2rem;
+        top: 1.2rem;
+    }
+    .box-1 h4 {
+        position: relative;
+        right: 30px;
+    }
+    .product {
+        width: 25rem;
+        margin-bottom: 2rem;
+        padding: 1rem 2rem;
+    }
+    
+    .smith header {
+        display: flex;
+    }
+    .smith h3 {
+        margin-left: 8px;
+    }
+    .smith {
+        color: #fff;
+        width: 25rem;
+        height: 13rem;
+        padding: 2rem;
+        margin: 0 10px;
+        border-radius: 5px;
+        background-color: hsl(300, 43%, 22%);
+    }
+    h3 span {
+        color: hsl(333, 80%, 67%);
+    }
+    .section-second {
+        display: flex;
+    }
+    .irene {
+        margin-top: 14px;
+    }
+    .anne {
+        margin-top: 28px;
+    }
+    .box-second {
+        position: relative;
+        right: 2rem;
+    }
+    .box-first {
+        position: relative;
+        right: 4rem;
+    }
+}
